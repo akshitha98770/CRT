@@ -31,7 +31,7 @@ while n > 0 :
     if digit % 2 == 0:
         print(digit,end=" ")
     n = n // 10 
-'''
+
 n = int(input())
 temp = reverse(n)
 print(temp == n)
@@ -41,3 +41,4 @@ else:
     print(False)
 print(Ture) if temp == n else print(False)
 
+'''
