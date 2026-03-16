@@ -1,5 +1,6 @@
 def count_digits(n: int) -> int:
-    n = abs(n)  # handle negative numbers
+    n = abs(n)
+    
     if n == 0:
         return 1
     
